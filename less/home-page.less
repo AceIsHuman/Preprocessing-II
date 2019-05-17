@@ -67,18 +67,7 @@ header {
       margin-bottom: 30px;
 
       .btn {
-        width: 100%;
-        background: @button-bg;
-        padding: 15px;
-        color: @white;
-        border-radius: 15px;
-        font-size: 1.6rem;
-        text-align: center;
-
-        &:hover {
-          background: darken(@button-bg, 10%);
-          cursor: pointer;
-        }
+        .btn-mixin(@button-bg);
       }
     }
   }
